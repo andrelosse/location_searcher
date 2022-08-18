@@ -18,7 +18,7 @@ def writesearch(search):
             json.dump(search, endjson)
         print("Endereço gravado!")
 
-    except:
+    except Exception:
         print("Cannot write file...")
 
 
@@ -40,6 +40,6 @@ def writecoords(location):
         with open("coordinates.json", "w") as latlon:
             json.dump(location, latlon)
 
-    except:
+    except Exception:
 
         print("Cannot write coordinates on file...")

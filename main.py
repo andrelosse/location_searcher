@@ -7,8 +7,8 @@ def main():
 
     location = searchloc(readsearch())
 
-    print("Result -> " + str(location[0]))
-    print("Coordinates: -> " + str(location[1]) + " : " + str(location[2]))
+    print(f"Result -> {str(location[0])}")
+    print(f"Coordinates: -> {str(location[1])} : {str(location[2])}")
 
     writecoords(location)
 
