@@ -1,3 +1,5 @@
+# Code by @andrelosse
+
 from geosearch import *
 
 
